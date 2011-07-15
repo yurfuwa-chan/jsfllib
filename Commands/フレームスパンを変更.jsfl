@@ -1,0 +1,1 @@
+﻿fl.runScript(fl.configURI+"Javascript/TimelineUtil.jsfl");var frames = TimelineUtil.getSelectedFrames(null,true,false);var duration = Number(prompt("フレームスパンの長さを指定",10));frames.forEach(function(frame,i,arr){	frame.setMotionObjectDuration(duration);})

@@ -1,0 +1,1 @@
+﻿//任意の位置に再生ヘッドに移動｀var timeline = fl.getDocumentDOM().getTimeline();var message = "currentFrame :"+(timeline.currentFrame+1)+" totalFrames"+(timeline.frameCount);timeline.currentFrame = Number(prompt(message))-1 || timeline.currentFrame;

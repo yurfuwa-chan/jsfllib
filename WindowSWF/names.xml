@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommonLibrary>
+  <name source="Project" target="プロジェクト"></name>
+  <name source="Search for Help" target="ヘルプを検索"></name>
+  <name source="Code Snippets" target="コードスニペット"></name>
+   <name source="transitions" target="Tweener Transitions Cheat Sheet"></name>
+</CommonLibrary>

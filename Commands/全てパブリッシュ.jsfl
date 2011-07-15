@@ -1,0 +1,1 @@
+﻿publishAll();function publishAll(){	var docs = fl.documents;	for each(var doc in docs){		doc.publish();	}}

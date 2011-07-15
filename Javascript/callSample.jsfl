@@ -1,0 +1,1 @@
+﻿function fromSWF(arg){	var panels = fl.swfPanels;	panels.forEach(function(panel){		if(panel.name == "05_01"){			panel.call("callSWF",arg+"World");		}	});}

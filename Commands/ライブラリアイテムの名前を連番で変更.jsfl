@@ -1,0 +1,1 @@
+﻿var doc = fl.getDocumentDOM();var lib = doc.library;var items = lib.getSelectedItems();var initial = prompt("連番のインスタンス名を付与","initial");items.forEach(function(item,i){	item.name = initial+i});

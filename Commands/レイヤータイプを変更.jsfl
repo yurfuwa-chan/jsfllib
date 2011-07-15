@@ -1,0 +1,1 @@
+﻿fl.runScript(fl.configURI+"Javascript/TimelineUtil.jsfl");TimelineUtil.getSelectedLayers()var layerType = prompt("レイヤータイプを指定","normal");var layers = TimelineUtil.getSelectedLayers();layers.forEach(function(layer){	layer.layerType = layerType});

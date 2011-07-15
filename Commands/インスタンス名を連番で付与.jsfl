@@ -1,0 +1,1 @@
+﻿var initial = prompt("連番のインスタンス名を付与","initial");var selection = fl.getDocumentDOM().selection;selection.forEach(function(element,i,arr){	if(element.instanceType && element.instanceType == "symbol"){		fl.trace(element.name)		element.name = initial+i	}})

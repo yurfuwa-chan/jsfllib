@@ -1,0 +1,1 @@
+﻿(function(msg){	var doc = fl.getDocumentDOM();	var lib = doc.library;	var foldername = prompt(msg || "フォルダを作成","new folder");	if(!lib.itemExists(foldername)){		lib.newFolder(foldername);	}else{		arguments.callee(foldername+"は既に存在します");	}})();

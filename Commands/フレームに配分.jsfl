@@ -1,0 +1,1 @@
+﻿//Commanフォルダ内のコマンドからJSFLの呼び出しfl.runScript(fl.configURI+"Javascript/TimelineUtil.jsfl");TimelineUtil.distributeToFrames();

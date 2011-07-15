@@ -1,0 +1,1 @@
+﻿var docs = fl.documents;var className = prompt("クラス名を入力してください") || "";for each(var doc in docs){	doc.docClass = className}fl.saveAll();
