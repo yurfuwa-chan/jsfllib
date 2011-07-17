@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<presets>
+  <preset name="test">
+    <timeline>
+      <layer index="0" name="label">
+        <frame index="0" name="up">
+          <actionScript/>
+        </frame>
+        <frame index="1" name="down">
+          <actionScript/>
+        </frame>
+      </layer>
+      <layer index="1" name="as">
+        <frame index="0" name="">
+          <actionScript>stop();</actionScript>
+        </frame>
+      </layer>
+    </timeline>
+  </preset>
+</presets>
