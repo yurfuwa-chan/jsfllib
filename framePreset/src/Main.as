@@ -61,7 +61,7 @@ package {
 		public function update(presets:XML):void{
 			list.removeAll();
 			for each(var preset:XML in presets.preset){
-				list.addItem({label:preset.@name.toString()});
+				list.addItemAt({label:preset.@name.toString()},0);
 			}
 			list.draw();
 		}
