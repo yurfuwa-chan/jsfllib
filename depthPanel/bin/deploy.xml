@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<project default="deploy">
+	<target name="copy">
+		<copy todir="../src/Commands">
+			<fileset dir="/Users/kaede/Library/Application Support/Adobe/Flash CS5.5/ja_JP/Configuration/Commands">
+			<exclude name="Convert Symbol to Flex Component.jsfl" />
+			<exclude name="Convert Symbol to Flex Container.jsfl" />
+			<exclude name="Copy Font Name for ActionScript.jsfl" />
+			<exclude name="Copy Motion as XML.jsfl" />
+			<exclude name="Export Motion XML.jsfl" />
+			<exclude name="Import Motion XML.jsfl" />
+			<exclude name="names.xml" />
+			</fileset>
+		</copy>
+		<copy todir="../src/Javascript">
+			<fileset dir="/Users/kaede/Library/Application Support/Adobe/Flash CS5.5/ja_JP/Configuration/Javascript">
+				<exclude name="Scripts/**/*" />
+				<exclude name="Scripts" />
+				<exclude name="CopyMotionAsAS3Template.as" />
+				<exclude name="CopyMotion.jsfl" />
+				<exclude name="CopyMotionAsAS3.jsfl" />
+				<exclude name="date.jsfl" />
+				<exclude name="DeployVideo.jsfl" />
+				<exclude name="DeployVideoPreview.jsfl" />
+				<exclude name="FLVPlayback.jsfl" />
+				<exclude name="fscommand2.jsfl" />
+				<exclude name="inputRangeCheck.jsfl" />
+				<exclude name="MakeFlexComponent.jsfl" />
+				<exclude name="MotionXML.jsfl" />
+				<exclude name="movieclip.jsfl" />
+				<exclude name="ObjectFindAndSelect.jsfl" />
+				<exclude name="PasteMotion.jsfl" />
+				<exclude name="PasteMotionSpecial.jsfl" />
+				<exclude name="test.jsfl" />
+				<exclude name="UIComponents.jsfl" />
+				<exclude name="url.jsfl" />
+				<exclude name="PasteMotionSpecialDialog.xml" />
+				<exclude name="PasteMotionSpecialDialogTemplate.xml" />
+			</fileset>
+		</copy>
+		<copy todir="../src/WindowSWF">
+			<fileset dir="/Users/kaede/Library/Application Support/Adobe/Flash CS5.5/ja_JP/Configuration/WindowSWF">
+				<exclude name="Code Snippets.swf" />
+				<exclude name="Project.swf" />
+				<exclude name="log.xml" />
+				</fileset>
+		</copy>
+  </target>
+	<target name="deploy">
+  		<copy todir="/Users/kaede/Library/Application Support/Adobe/Flash CS5.5/ja_JP/Configuration/WindowSWF">
+  			<fileset dir="/Users/kaede/www/project/jsfllib/src/framePreset/bin">
+  				<include name="framePreset.swf" />
+  			</fileset>
+		</copy>
+		<copy todir="/Users/kaede/Library/Application Support/Adobe/Flash CS5.5/ja_JP/Configuration/WindowSWF">
+  			<fileset dir="/Users/kaede/www/project/jsfllib/src/depthPanel/bin">
+  				<include name="depthPanel.swf" />
+  			</fileset>
+		</copy>
+	</target>
+</project>
