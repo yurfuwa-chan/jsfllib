@@ -20,4 +20,19 @@
       </layer>
     </timeline>
   </preset>
+  <preset name="test">
+    <timeline selectedLayerOrigin="0" selectedFrameOrigin="0">
+      <layer index="0" name="レイヤー 4">
+        <frame index="0" name="test">
+          <actionScript>stop();</actionScript>
+        </frame>
+        <frame index="4" name="_dwon">
+          <actionScript/>
+        </frame>
+        <frame index="6" name="_up">
+          <actionScript/>
+        </frame>
+      </layer>
+    </timeline>
+  </preset>
 </presets>
