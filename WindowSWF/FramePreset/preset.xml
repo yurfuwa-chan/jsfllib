@@ -1,141 +1,21 @@
 <?xml version="1.0" ?>
 <presets>
-  <preset name="test">
-    <timeline selectedLayerOrigin="2" selectedFrameOrigin="3">
-      <layer index="2" name="レイヤー 7">
-        <frame index="3" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-      </layer>
-      <layer index="3" name="レイヤー 7">
-        <frame index="3" name="no2">
-          <actionScript/>
-        </frame>
-      </layer>
-    </timeline>
-  </preset>
-  <preset name="updown">
+  <preset name="button">
     <timeline selectedLayerOrigin="0" selectedFrameOrigin="0">
-      <layer index="0" name="レイヤー 3">
-        <frame index="0" name="up">
+      <layer index="0" name="label">
+        <frame index="0" name="_up">
           <actionScript/>
         </frame>
-        <frame index="4" name="down">
+        <frame index="6" name="_over">
+          <actionScript/>
+        </frame>
+        <frame index="12" name="_down">
           <actionScript/>
         </frame>
       </layer>
-      <layer index="1" name="レイヤー 4">
+      <layer index="1" name="as">
         <frame index="0" name="">
           <actionScript>stop();</actionScript>
-        </frame>
-        <frame index="4" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-      </layer>
-    </timeline>
-  </preset>
-  <preset name="stop">
-    <timeline selectedLayerOrigin="3" selectedFrameOrigin="0">
-      <layer index="3" name="レイヤー 4">
-        <frame index="0" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-      </layer>
-    </timeline>
-  </preset>
-  <preset name="component">
-    <timeline selectedLayerOrigin="0" selectedFrameOrigin="4">
-      <layer index="0" name="レイヤー 15">
-        <frame index="4" name="">
-          <actionScript/>
-        </frame>
-        <frame index="29" name="up">
-          <actionScript/>
-        </frame>
-        <frame index="33" name="down">
-          <actionScript/>
-        </frame>
-      </layer>
-      <layer index="1" name="レイヤー 14">
-        <frame index="4" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-        <frame index="29" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-        <frame index="33" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-      </layer>
-      <layer index="2" name="レイヤー 3">
-        <frame index="4" name="down">
-          <actionScript/>
-        </frame>
-      </layer>
-      <layer index="3" name="レイヤー 4">
-        <frame index="4" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-      </layer>
-    </timeline>
-  </preset>
-  <preset name="component2">
-    <timeline selectedLayerOrigin="0" selectedFrameOrigin="0">
-      <layer index="0" name="レイヤー 15">
-        <frame index="0" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-        <frame index="4" name="">
-          <actionScript/>
-        </frame>
-      </layer>
-      <layer index="1" name="レイヤー 14">
-        <frame index="0" name="">
-          <actionScript/>
-        </frame>
-        <frame index="4" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-      </layer>
-    </timeline>
-  </preset>
-  <preset name="component3">
-    <timeline selectedLayerOrigin="0" selectedFrameOrigin="0">
-      <layer index="0" name="レイヤー 15">
-        <frame index="0" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-        <frame index="4" name="">
-          <actionScript/>
-        </frame>
-        <frame index="29" name="up">
-          <actionScript/>
-        </frame>
-      </layer>
-      <layer index="1" name="レイヤー 14">
-        <frame index="0" name="">
-          <actionScript/>
-        </frame>
-        <frame index="4" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-        <frame index="29" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-      </layer>
-    </timeline>
-  </preset>
-  <preset name="news">
-    <timeline selectedLayerOrigin="0" selectedFrameOrigin="0">
-      <layer index="0" name="レイヤー 1">
-        <frame index="0" name="">
-          <actionScript>stop();</actionScript>
-        </frame>
-        <frame index="4" name="">
-          <actionScript/>
-        </frame>
-        <frame index="29" name="up">
-          <actionScript/>
         </frame>
       </layer>
     </timeline>

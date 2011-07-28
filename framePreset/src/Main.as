@@ -10,7 +10,7 @@ package {
 
 	public class Main extends Sprite{
 		
-		private var preset:FramePreset;
+		private var preset:JSFLProxy;
 		private var box:HBox;
 		private var list:List;
 		private var buttonBox:VBox;
@@ -20,7 +20,7 @@ package {
 		
 		
 		public function Main(){
-			preset = new FramePreset();
+			preset = new JSFLProxy(JSFLProxy.CONFIG_URI+"Javascript/FramePreset.jsfl");
 			createView(); 
 			registeEventListener();
 			update(XML(preset.readPreset()))
