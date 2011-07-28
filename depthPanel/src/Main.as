@@ -1,19 +1,16 @@
 package {
-	import com.bit101.components.Label;
 	import com.bit101.components.VBox;
 
 	import flash.display.Sprite;
 
 	public class Main extends Sprite {
 		
-		private var label : Label;
 		private var rBox : RearrangeBox;
 		private var proxy : JSFLProxy;	
 		
 		public function Main() {
 			proxy = new JSFLProxy(JSFLProxy.CONFIG_URI+"Javascript/DepthPanel.jsfl");
 			var vbox:VBox = new VBox(this);
-			label = new Label(vbox,0,0,"version : "+(new Date).getTime());
 			rBox = vbox.addChild(new RearrangeBox) as RearrangeBox;
 			//並べ替えイベント
 			rBox.addEventListener(RearrangeEvent.CHANGE, changeHandler);
