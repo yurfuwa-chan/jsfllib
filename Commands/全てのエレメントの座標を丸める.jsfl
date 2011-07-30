@@ -1,0 +1,1 @@
+﻿fl.runScript(fl.configURI+"Javascript/TimelineUtil.jsfl");TimelineUtil.eachElements(null,function(element,index,arr,parent){	element.x = Math.round(element.x)	element.y = Math.round(element.y)});
