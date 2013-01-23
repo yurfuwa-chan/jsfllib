@@ -17,8 +17,3 @@ boot drive]¥Users¥[user name]¥Local Settings¥Application Data¥Adobe¥Flash 
 
 ### Macintosh OS X：
 Macintosh HD/Users/[user name]/Library/Application Support/Adobe/Flash CS5/[language]/Configuration/
-
-Getting Help
-------------
-### Twitter
-著者加茂雄亮のTwitterアカウント。
