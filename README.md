@@ -22,4 +22,3 @@ Getting Help
 ------------
 ### Twitter
 著者加茂雄亮のTwitterアカウント。
-[@KaedeAS Twitter](http://www.twitter.com/appcelerator)
